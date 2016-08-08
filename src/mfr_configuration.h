@@ -1,0 +1,6 @@
+
+namespace mfr {
+class Configuration {
+
+};
+}
