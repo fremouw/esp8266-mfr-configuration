@@ -1,6 +1,8 @@
 #include "mfr_configuration.h"
 #include <Arduino.h>
 
+#define _MFR_CONFIGURATION_START 3
+
 namespace mfr {
 void Configuration::clear() {
     Serial.println("Configuration::clear()");
